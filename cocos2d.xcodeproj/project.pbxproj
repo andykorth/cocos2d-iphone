@@ -381,7 +381,6 @@
 		7A59484519E375AB00F65F90 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 503798C50F912C2000986724 /* CGPointExtension.m */; };
 		7A59484719E375AB00F65F90 /* CCProfiling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529445A11098D6F00E500F3 /* CCProfiling.m */; };
 		7A59484819E375AB00F65F90 /* ccUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = E0C54DC811F9CF2700B9E4CB /* ccUtils.c */; };
-		7A59484919E375AB00F65F90 /* ccUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = E0C54DC911F9CF2700B9E4CB /* ccUtils.h */; };
 		7A59484B19E375AB00F65F90 /* CCFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C508C50F7C194400799124 /* CCFileUtils.m */; };
 		7A59484D19E375AB00F65F90 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 50F29F5510204FD60046CA73 /* base64.c */; };
 		7A59484F19E375AC00F65F90 /* ZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2A102102094550046CA73 /* ZipUtils.m */; };
@@ -391,7 +390,6 @@
 		7A59485719E375AD00F65F90 /* CCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D380581F1889CE7700822437 /* CCCache.m */; };
 		7A59485919E375AD00F65F90 /* CCRenderDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D3903B0F199528A0003AA81A /* CCRenderDispatch.m */; };
 		7A59485D19E375AD00F65F90 /* CCRendererBasicTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D34CAD6819C3A7B3009BED7A /* CCRendererBasicTypes.m */; };
-		7A59485E19E375AE00F65F90 /* CCShader.h in Sources */ = {isa = PBXBuildFile; fileRef = E0BC7D9B1342CE7B001B4DCC /* CCShader.h */; };
 		7A59486019E375AE00F65F90 /* CCShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BC7D9C1342CE7B001B4DCC /* CCShader.m */; };
 		7A59486219E375AE00F65F90 /* NSValue+CCRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D34CAD6219C3A0FD009BED7A /* NSValue+CCRenderer.m */; };
 		7A59486519E375AE00F65F90 /* CCRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D38058191889AD6000822437 /* CCRenderer.m */; };
@@ -410,7 +408,6 @@
 		7A59488F19E375B300F65F90 /* CCDirectorMac.m in Sources */ = {isa = PBXBuildFile; fileRef = A046E28C14C1DB7D0005BBF2 /* CCDirectorMac.m */; };
 		7A59489119E375B400F65F90 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A046E29014C1DB7D0005BBF2 /* CCGLView.m */; };
 		7A59489319E375B400F65F90 /* CCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A046E29214C1DB7D0005BBF2 /* CCWindow.m */; };
-		7A59489519E375B400F65F90 /* CCNS.h in Sources */ = {isa = PBXBuildFile; fileRef = E0F92AC31224559800EF2362 /* CCNS.h */; };
 		7A59489719E375B400F65F90 /* cocos2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A07B7A0E4CBCD300AAF0BB /* cocos2d.m */; };
 		7A59489919E375B500F65F90 /* ccFPSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A003AC8E16572D6000C7B792 /* ccFPSImages.m */; };
 		7A59489C19E375B500F65F90 /* CCDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5018F2570DFDEAFF00C013A5 /* CCDirector.m */; };
@@ -426,7 +423,6 @@
 		7A5948BD19E375BB00F65F90 /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D273071822F4AA0054849B /* CCBReader.m */; };
 		7A5948BF19E375BB00F65F90 /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D273091822F4AA0054849B /* CCBsequence.m */; };
 		7A5948C119E375BB00F65F90 /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D2730B1822F4AA0054849B /* CCBSequenceProperty.m */; };
-		7A5948C319E375BC00F65F90 /* CCBReader_Private.h in Sources */ = {isa = PBXBuildFile; fileRef = B77060CE18341AD50043CC67 /* CCBReader_Private.h */; };
 		7A5948C719E375BC00F65F90 /* CCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AE45D17E7AF1C0028BE0B /* CCControl.m */; };
 		7A5948C919E375BD00F65F90 /* CCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AE45B17E7AF1C0028BE0B /* CCButton.m */; };
 		7A5948CB19E375BD00F65F90 /* CCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79F905917FE2A2E00908504 /* CCTableView.m */; };
@@ -465,12 +461,28 @@
 		83E1A88719C8ACDC000A3BCA /* CCPackageCocos2dEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1A87F19C8ACDC000A3BCA /* CCPackageCocos2dEnabler.m */; };
 		83E1A88A19C8ACDC000A3BCA /* CCPackageInstaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E1A88219C8ACDC000A3BCA /* CCPackageInstaller.h */; };
 		83E1A88B19C8ACDC000A3BCA /* CCPackageInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1A88319C8ACDC000A3BCA /* CCPackageInstaller.m */; };
+		9D03A5EB1A02F61700C651C8 /* CCLightNode_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1B4A941A02D51600B2DD9B /* CCLightNode_Private.h */; };
+		9D03A5EC1A02F61A00C651C8 /* CCLightNode_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1B4A941A02D51600B2DD9B /* CCLightNode_Private.h */; };
+		9D03A5ED1A02F61B00C651C8 /* CCLightNode_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1B4A941A02D51600B2DD9B /* CCLightNode_Private.h */; };
+		9D03A5F31A02F8C100C651C8 /* CCEffectLighting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDD047C19DE154400687820 /* CCEffectLighting.h */; };
+		9D03A5F61A02F8C200C651C8 /* CCEffectLighting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDD047C19DE154400687820 /* CCEffectLighting.h */; };
+		9D03A5F71A02F8C500C651C8 /* CCEffectLighting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD047D19DE154400687820 /* CCEffectLighting.m */; };
+		9D03A5F81A02F8C600C651C8 /* CCEffectLighting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD047D19DE154400687820 /* CCEffectLighting.m */; };
+		9D1B4A991A02E90300B2DD9B /* CCLightGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1B4A971A02E90300B2DD9B /* CCLightGroups.h */; };
+		9D1B4A9A1A02E90300B2DD9B /* CCLightGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1B4A971A02E90300B2DD9B /* CCLightGroups.h */; };
+		9D1B4A9B1A02E90300B2DD9B /* CCLightGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1B4A971A02E90300B2DD9B /* CCLightGroups.h */; };
 		9D69E6D619DF604800C2749C /* CCLightNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D69E6D419DF604800C2749C /* CCLightNode.h */; };
 		9D69E6D719DF604800C2749C /* CCLightNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E6D519DF604800C2749C /* CCLightNode.m */; };
 		9D85671D191B018200573093 /* CCEffectBrightness.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D85671B191B018200573093 /* CCEffectBrightness.h */; };
 		9D85671E191B018200573093 /* CCEffectBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85671C191B018200573093 /* CCEffectBrightness.m */; };
 		9D856721191B019900573093 /* CCEffectContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D85671F191B019900573093 /* CCEffectContrast.h */; };
 		9D856722191B019900573093 /* CCEffectContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D856720191B019900573093 /* CCEffectContrast.m */; };
+		9D9205D21A0173D600FF2D6D /* CCLightCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9205D01A0173D600FF2D6D /* CCLightCollection.h */; };
+		9D9205D31A0173D600FF2D6D /* CCLightCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9205D01A0173D600FF2D6D /* CCLightCollection.h */; };
+		9D9205D41A0173D600FF2D6D /* CCLightCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9205D01A0173D600FF2D6D /* CCLightCollection.h */; };
+		9D9205D51A0173D600FF2D6D /* CCLightCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9205D11A0173D600FF2D6D /* CCLightCollection.m */; };
+		9D9205D61A0173D600FF2D6D /* CCLightCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9205D11A0173D600FF2D6D /* CCLightCollection.m */; };
+		9D9205D71A0173D600FF2D6D /* CCLightCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9205D11A0173D600FF2D6D /* CCLightCollection.m */; };
 		9DBCA31419B68BE400EFE96D /* CCEffectColorChannelOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBCA31219B68BE400EFE96D /* CCEffectColorChannelOffset.h */; };
 		9DBCA31519B68BE400EFE96D /* CCEffectColorChannelOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA31319B68BE400EFE96D /* CCEffectColorChannelOffset.m */; };
 		9DDD047E19DE154400687820 /* CCEffectLighting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDD047C19DE154400687820 /* CCEffectLighting.h */; };
@@ -1261,6 +1273,8 @@
 		83E1A88319C8ACDC000A3BCA /* CCPackageInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPackageInstaller.m; sourceTree = "<group>"; };
 		83E1A88D19C8C19D000A3BCA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		92FF6C7318F33A2A005B7139 /* CCActionManager_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCActionManager_Private.h; sourceTree = "<group>"; };
+		9D1B4A941A02D51600B2DD9B /* CCLightNode_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLightNode_Private.h; sourceTree = "<group>"; };
+		9D1B4A971A02E90300B2DD9B /* CCLightGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLightGroups.h; sourceTree = "<group>"; };
 		9D69E6D419DF604800C2749C /* CCLightNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLightNode.h; sourceTree = "<group>"; };
 		9D69E6D519DF604800C2749C /* CCLightNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLightNode.m; sourceTree = "<group>"; };
 		9D85671A191AE2CC00573093 /* CCEffectStack_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCEffectStack_Private.h; sourceTree = "<group>"; };
@@ -1268,6 +1282,8 @@
 		9D85671C191B018200573093 /* CCEffectBrightness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEffectBrightness.m; sourceTree = "<group>"; };
 		9D85671F191B019900573093 /* CCEffectContrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEffectContrast.h; sourceTree = "<group>"; };
 		9D856720191B019900573093 /* CCEffectContrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEffectContrast.m; sourceTree = "<group>"; };
+		9D9205D01A0173D600FF2D6D /* CCLightCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLightCollection.h; sourceTree = "<group>"; };
+		9D9205D11A0173D600FF2D6D /* CCLightCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLightCollection.m; sourceTree = "<group>"; };
 		9DBCA31219B68BE400EFE96D /* CCEffectColorChannelOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEffectColorChannelOffset.h; sourceTree = "<group>"; };
 		9DBCA31319B68BE400EFE96D /* CCEffectColorChannelOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEffectColorChannelOffset.m; sourceTree = "<group>"; };
 		9DDD047C19DE154400687820 /* CCEffectLighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEffectLighting.h; sourceTree = "<group>"; };
@@ -1866,6 +1882,8 @@
 				D2B840C31909F447008063EA /* CCRenderTexture_Private.h */,
 				9D69E6D419DF604800C2749C /* CCLightNode.h */,
 				9D69E6D519DF604800C2749C /* CCLightNode.m */,
+				9D1B4A941A02D51600B2DD9B /* CCLightNode_Private.h */,
+				9D1B4A971A02E90300B2DD9B /* CCLightGroups.h */,
 			);
 			name = "Misc Nodes";
 			sourceTree = "<group>";
@@ -2244,6 +2262,8 @@
 				D309054F18AC23110081BF11 /* CCRenderer_Private.h */,
 				D38058191889AD6000822437 /* CCRenderer.m */,
 				D36DFA2719996EC500DEC135 /* CCRendererGLSupport.m */,
+				9D9205D01A0173D600FF2D6D /* CCLightCollection.h */,
+				9D9205D11A0173D600FF2D6D /* CCLightCollection.m */,
 			);
 			name = Rendering;
 			sourceTree = "<group>";
@@ -2359,6 +2379,7 @@
 				83E1A86619C8ACA0000A3BCA /* CCPackageManager.h in Headers */,
 				50C508C60F7C194400799124 /* CCFileUtils.h in Headers */,
 				D268FE231980791C00ECBCD0 /* CCEffectStack_Private.h in Headers */,
+				9D9205D21A0173D600FF2D6D /* CCLightCollection.h in Headers */,
 				503798C60F912C2000986724 /* CGPointExtension.h in Headers */,
 				50D413260F9A3FE00040C3C8 /* CCParticleSystem.h in Headers */,
 				502C6C6C0FB87970002BF3C2 /* CCParallaxNode.h in Headers */,
@@ -2371,8 +2392,10 @@
 				D272032518FC89A000B100FF /* CCEffect.h in Headers */,
 				D268FE191980791400ECBCD0 /* CCEffectRefraction.h in Headers */,
 				D2DDB09F19805E8400233D80 /* CCVector3.h in Headers */,
+				9D1B4A991A02E90300B2DD9B /* CCLightGroups.h in Headers */,
 				D3903B10199528A0003AA81A /* CCRenderDispatch.h in Headers */,
 				D272032418FC89A000B100FF /* CCEffect_Private.h in Headers */,
+				9D03A5EB1A02F61700C651C8 /* CCLightNode_Private.h in Headers */,
 				D272032D18FC89A000B100FF /* CCEffectStack.h in Headers */,
 				B7E260D818171D2000A0E872 /* CCTextField.h in Headers */,
 				D34CAD6C19C3AA10009BED7A /* CCRendererBasicTypes_Private.h in Headers */,
@@ -2509,6 +2532,7 @@
 				7A59465519E372EE00F65F90 /* CCEffectGlass.h in Headers */,
 				7A59465719E372EE00F65F90 /* CCEffectHue.h in Headers */,
 				7A59465919E372EE00F65F90 /* CCEffectReflection.h in Headers */,
+				9D9205D41A0173D600FF2D6D /* CCLightCollection.h in Headers */,
 				7A59465B19E372EE00F65F90 /* CCEffectRenderer.h in Headers */,
 				7A59465D19E372EE00F65F90 /* CCEffectSaturation.h in Headers */,
 				7A59465F19E372EE00F65F90 /* CCEffectStackProtocol.h in Headers */,
@@ -2516,6 +2540,7 @@
 				7A59466119E372EE00F65F90 /* CCEffect.h in Headers */,
 				7A59466319E372EE00F65F90 /* CCEffectStack.h in Headers */,
 				7A59466419E372EE00F65F90 /* CCEffectStack_Private.h in Headers */,
+				9D03A5ED1A02F61B00C651C8 /* CCLightNode_Private.h in Headers */,
 				7A59466619E372EE00F65F90 /* CCEffectBrightness.h in Headers */,
 				7A59466819E372EE00F65F90 /* CCEffectContrast.h in Headers */,
 				7A59466A19E372EE00F65F90 /* CCEffectPixellate.h in Headers */,
@@ -2580,6 +2605,7 @@
 				7A5946CB19E372F500F65F90 /* CCPackageManagerDelegate.h in Headers */,
 				7A5946CC19E372F500F65F90 /* CCPackageTypes.h in Headers */,
 				7A5946CD19E372F500F65F90 /* CCPackageDownload.h in Headers */,
+				9D03A5F61A02F8C200C651C8 /* CCEffectLighting.h in Headers */,
 				7A5946CF19E372F600F65F90 /* CCPackageDownloadDelegate.h in Headers */,
 				7A5946D019E372F600F65F90 /* CCPackageDownloadManager.h in Headers */,
 				7A5946D219E372F600F65F90 /* CCPackageDownloadManagerDelegate.h in Headers */,
@@ -2590,6 +2616,7 @@
 				7A5946DA19E372F700F65F90 /* CCPackageHelper.h in Headers */,
 				7A5946DC19E372F700F65F90 /* CCPackage_private.h in Headers */,
 				7A5946DD19E372F700F65F90 /* CCActionManager_Private.h in Headers */,
+				9D1B4A9B1A02E90300B2DD9B /* CCLightGroups.h in Headers */,
 				7A5946DE19E372F800F65F90 /* CCActionManager.h in Headers */,
 				7A5946E019E372F800F65F90 /* CCAction.h in Headers */,
 				7A5946E219E372F800F65F90 /* CCActionInstant.h in Headers */,
@@ -2716,6 +2743,7 @@
 				D241610A1958F72B003673BD /* CCEffectRenderer.h in Headers */,
 				D2FEB62F194F6C9E00FC0574 /* cocos2d.h in Headers */,
 				D2FEB630194F6C9E00FC0574 /* CCDirectorAndroid.h in Headers */,
+				9D1B4A9A1A02E90300B2DD9B /* CCLightGroups.h in Headers */,
 				D2FEB633194F6C9E00FC0574 /* TGAlib.h in Headers */,
 				D2FEB636194F6C9E00FC0574 /* CCActionEase.h in Headers */,
 				D2FEB637194F6C9E00FC0574 /* CCSprite_Private.h in Headers */,
@@ -2725,6 +2753,7 @@
 				D268FE241980791D00ECBCD0 /* CCEffectBloom.h in Headers */,
 				D2FEB63A194F6C9E00FC0574 /* CCSprite.h in Headers */,
 				D24161131958F738003673BD /* CCAnimationManager_Private.h in Headers */,
+				9D9205D31A0173D600FF2D6D /* CCLightCollection.h in Headers */,
 				D2FEB63B194F6C9E00FC0574 /* CCFileUtils.h in Headers */,
 				D2FEB63E194F6C9E00FC0574 /* CGPointExtension.h in Headers */,
 				D2FEB63F194F6C9E00FC0574 /* CCParticleSystem.h in Headers */,
@@ -2735,6 +2764,7 @@
 				D2FEB641194F6C9E00FC0574 /* CCTexture_Private.h in Headers */,
 				D2FEB644194F6C9E00FC0574 /* CCLayoutBox.h in Headers */,
 				D2FEB645194F6C9E00FC0574 /* CCTouchIOS.h in Headers */,
+				9D03A5EC1A02F61A00C651C8 /* CCLightNode_Private.h in Headers */,
 				D2FEB646194F6C9E00FC0574 /* CCEffect.h in Headers */,
 				D27451C719B111A9006DA0A1 /* CCEffectDFOutline.h in Headers */,
 				D24161141958F738003673BD /* CCAnimationManager.h in Headers */,
@@ -2813,6 +2843,7 @@
 				D2DDB09419805E8400233D80 /* CCMathUtilsAndroid.h in Headers */,
 				D2FEB694194F6C9E00FC0574 /* CCLayout.h in Headers */,
 				D299CE7B19C2910B00519CBB /* CCEffectDFInnerGlow.h in Headers */,
+				9D03A5F31A02F8C100C651C8 /* CCEffectLighting.h in Headers */,
 				D2FEB695194F6C9E00FC0574 /* NSThread+performBlock.h in Headers */,
 				D2FEB696194F6C9E00FC0574 /* CCTiledMapLayer_Private.h in Headers */,
 				D2FEB69A194F6C9E00FC0574 /* CCTransition.h in Headers */,
@@ -3209,6 +3240,7 @@
 				D23C5CB5194BC108007CA669 /* CCTouchIOS.m in Sources */,
 				A6A0734B17C78EF3004343C8 /* CCResponder.m in Sources */,
 				B78AE46317E7AF1C0028BE0B /* CCButton.m in Sources */,
+				9D9205D51A0173D600FF2D6D /* CCLightCollection.m in Sources */,
 				B78AE46517E7AF1C0028BE0B /* CCControl.m in Sources */,
 				B78AE46717E7AF1C0028BE0B /* CCControlTextureFactory.m in Sources */,
 				D38058211889CE7700822437 /* CCCache.m in Sources */,
@@ -3289,6 +3321,7 @@
 				7A59480019E375A300F65F90 /* CCPhysicsNode.m in Sources */,
 				7A59480319E375A300F65F90 /* CCEffectNode.m in Sources */,
 				7A59480519E375A300F65F90 /* CCNodeColor.m in Sources */,
+				9D9205D71A0173D600FF2D6D /* CCLightCollection.m in Sources */,
 				7A59480719E375A400F65F90 /* CCClippingNode.m in Sources */,
 				7A59480919E375A400F65F90 /* CCMotionStreak.m in Sources */,
 				7A59480B19E375A400F65F90 /* CCProgressNode.m in Sources */,
@@ -3316,7 +3349,6 @@
 				7A59484519E375AB00F65F90 /* CGPointExtension.m in Sources */,
 				7A59484719E375AB00F65F90 /* CCProfiling.m in Sources */,
 				7A59484819E375AB00F65F90 /* ccUtils.c in Sources */,
-				7A59484919E375AB00F65F90 /* ccUtils.h in Sources */,
 				7A59484B19E375AB00F65F90 /* CCFileUtils.m in Sources */,
 				7A59484D19E375AB00F65F90 /* base64.c in Sources */,
 				7A59484F19E375AC00F65F90 /* ZipUtils.m in Sources */,
@@ -3326,7 +3358,6 @@
 				7A59485719E375AD00F65F90 /* CCCache.m in Sources */,
 				7A59485919E375AD00F65F90 /* CCRenderDispatch.m in Sources */,
 				7A59485D19E375AD00F65F90 /* CCRendererBasicTypes.m in Sources */,
-				7A59485E19E375AE00F65F90 /* CCShader.h in Sources */,
 				7A59486019E375AE00F65F90 /* CCShader.m in Sources */,
 				7A59486219E375AE00F65F90 /* NSValue+CCRenderer.m in Sources */,
 				7A59486519E375AE00F65F90 /* CCRenderer.m in Sources */,
@@ -3345,7 +3376,6 @@
 				7A59488F19E375B300F65F90 /* CCDirectorMac.m in Sources */,
 				7A59489119E375B400F65F90 /* CCGLView.m in Sources */,
 				7A59489319E375B400F65F90 /* CCWindow.m in Sources */,
-				7A59489519E375B400F65F90 /* CCNS.h in Sources */,
 				7A59494019E3810500F65F90 /* CCPlatformTextField.m in Sources */,
 				7A59489719E375B400F65F90 /* cocos2d.m in Sources */,
 				7A59489919E375B500F65F90 /* ccFPSImages.m in Sources */,
@@ -3361,8 +3391,8 @@
 				7A5948BB19E375BA00F65F90 /* CCBLocalizationManager.m in Sources */,
 				7A5948BD19E375BB00F65F90 /* CCBReader.m in Sources */,
 				7A5948BF19E375BB00F65F90 /* CCBsequence.m in Sources */,
+				9D03A5F81A02F8C600C651C8 /* CCEffectLighting.m in Sources */,
 				7A5948C119E375BB00F65F90 /* CCBSequenceProperty.m in Sources */,
-				7A5948C319E375BC00F65F90 /* CCBReader_Private.h in Sources */,
 				7A5948C719E375BC00F65F90 /* CCControl.m in Sources */,
 				7A5948C919E375BD00F65F90 /* CCButton.m in Sources */,
 				7A5948CB19E375BD00F65F90 /* CCTableView.m in Sources */,
@@ -3430,6 +3460,7 @@
 				D3903B17199528DF003AA81A /* CCRenderDispatch.m in Sources */,
 				D2FEB6E7194F6C9E00FC0574 /* ZipUtils.m in Sources */,
 				D2FEB6EA194F6C9E00FC0574 /* CCEffectStack.m in Sources */,
+				9D9205D61A0173D600FF2D6D /* CCLightCollection.m in Sources */,
 				D2FEB6EC194F6C9E00FC0574 /* CCRenderTexture.m in Sources */,
 				D28B2E7A19CBA89A00DC6E08 /* CCEffectColorChannelOffset.m in Sources */,
 				D2FEB6ED194F6C9E00FC0574 /* CCMotionStreak.m in Sources */,
@@ -3502,6 +3533,7 @@
 				5BC3CB5A19626FA000C4F0D0 /* CCGestureListener.m in Sources */,
 				BC9F4E8F19DB632B00B25F01 /* CCPackageManager.m in Sources */,
 				D2FEB735194F6C9E00FC0574 /* CCTouchIOS.m in Sources */,
+				9D03A5F71A02F8C500C651C8 /* CCEffectLighting.m in Sources */,
 				D2FEB736194F6C9E00FC0574 /* CCResponder.m in Sources */,
 				D2FEB737194F6C9E00FC0574 /* CCButton.m in Sources */,
 				D2FEB738194F6C9E00FC0574 /* CCControl.m in Sources */,
@@ -3716,9 +3748,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -3742,9 +3772,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
