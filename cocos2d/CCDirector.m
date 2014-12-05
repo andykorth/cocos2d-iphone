@@ -505,7 +505,21 @@ static CCDirector *_sharedDirector = nil;
 	
 	[self setProjection:_projection];
 	
-	[_runningScene viewDidResizeTo: newViewSize];
+    _runningScene.contentSize = _winSizeInPoints;
+    
+    [_runningScene viewDidResizeTo: newViewSize];
+    
+    // content sized changed is not recursive. Will be replaced anyway.
+    [self contentSizeChangedForAllChildren:_runningScene];
+}
+
+-(void) contentSizeChangedForAllChildren:(CCNode *)n
+{
+    for (CCNode* c in n.children) {
+        NSLog(@"Content size changed for: %@", c);
+        [c contentSizeChanged];
+        [self contentSizeChangedForAllChildren:c];
+    }
 }
 
 #pragma mark Director Scene Management
