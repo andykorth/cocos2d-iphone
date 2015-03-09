@@ -632,8 +632,9 @@ static NSInteger ccbAnimationManagerID = 0;
 }
 
 - (void)cleanup {
-//    [_scheduler setPaused:YES target:self];
-//	[_scheduler unscheduleTarget:self];
+    CCScheduler *scheduler = [CCDirector currentDirector].runningScene.scheduler;
+    [scheduler setPaused:YES target:self];
+	[scheduler unscheduleTarget:self];
     [self clearAllActions];
 }
 
