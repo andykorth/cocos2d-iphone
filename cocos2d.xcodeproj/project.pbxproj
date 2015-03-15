@@ -108,6 +108,49 @@
 		5BC3CB5919626FA000C4F0D0 /* CCGestureListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC3CB5719626FA000C4F0D0 /* CCGestureListener.h */; };
 		5BC3CB5A19626FA000C4F0D0 /* CCGestureListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3CB5819626FA000C4F0D0 /* CCGestureListener.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		750530291A54B21F009AEFA8 /* CCScene+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 750530281A54B21F009AEFA8 /* CCScene+Private.h */; };
+		75D092751AB396EE004519D8 /* CCWwise.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75DD6D701AB2081400896C89 /* CCWwise.mm */; };
+		75D092FF1AB52A96004519D8 /* AkDefaultIOHookBlocking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092E71AB52A95004519D8 /* AkDefaultIOHookBlocking.cpp */; };
+		75D093001AB52A96004519D8 /* AkDefaultIOHookBlocking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092E71AB52A95004519D8 /* AkDefaultIOHookBlocking.cpp */; };
+		75D093011AB52A96004519D8 /* AkDefaultIOHookBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092E81AB52A95004519D8 /* AkDefaultIOHookBlocking.h */; };
+		75D093021AB52A96004519D8 /* AkDefaultIOHookBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092E81AB52A95004519D8 /* AkDefaultIOHookBlocking.h */; };
+		75D093031AB52A96004519D8 /* AkDefaultIOHookDeferred.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092E91AB52A95004519D8 /* AkDefaultIOHookDeferred.cpp */; };
+		75D093041AB52A96004519D8 /* AkDefaultIOHookDeferred.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092E91AB52A95004519D8 /* AkDefaultIOHookDeferred.cpp */; };
+		75D093051AB52A96004519D8 /* AkDefaultIOHookDeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EA1AB52A95004519D8 /* AkDefaultIOHookDeferred.h */; };
+		75D093061AB52A96004519D8 /* AkDefaultIOHookDeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EA1AB52A95004519D8 /* AkDefaultIOHookDeferred.h */; };
+		75D093071AB52A96004519D8 /* AkFileHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EB1AB52A95004519D8 /* AkFileHelpers.h */; };
+		75D093081AB52A96004519D8 /* AkFileHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EB1AB52A95004519D8 /* AkFileHelpers.h */; };
+		75D093091AB52A96004519D8 /* AkFilePackageLowLevelIOBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EC1AB52A95004519D8 /* AkFilePackageLowLevelIOBlocking.h */; };
+		75D0930A1AB52A96004519D8 /* AkFilePackageLowLevelIOBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EC1AB52A95004519D8 /* AkFilePackageLowLevelIOBlocking.h */; };
+		75D0930B1AB52A96004519D8 /* AkFilePackageLowLevelIODeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092ED1AB52A95004519D8 /* AkFilePackageLowLevelIODeferred.h */; };
+		75D0930C1AB52A96004519D8 /* AkFilePackageLowLevelIODeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092ED1AB52A95004519D8 /* AkFilePackageLowLevelIODeferred.h */; };
+		75D0930D1AB52A96004519D8 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092EE1AB52A95004519D8 /* stdafx.cpp */; };
+		75D0930E1AB52A96004519D8 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092EE1AB52A95004519D8 /* stdafx.cpp */; };
+		75D0930F1AB52A96004519D8 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EF1AB52A95004519D8 /* stdafx.h */; };
+		75D093101AB52A96004519D8 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092EF1AB52A95004519D8 /* stdafx.h */; };
+		75D093111AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F11AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.cpp */; };
+		75D093121AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F11AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.cpp */; };
+		75D093131AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F21AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.h */; };
+		75D093141AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F21AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.h */; };
+		75D093151AB52A96004519D8 /* AkFileLocationBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F31AB52A95004519D8 /* AkFileLocationBase.cpp */; };
+		75D093161AB52A96004519D8 /* AkFileLocationBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F31AB52A95004519D8 /* AkFileLocationBase.cpp */; };
+		75D093171AB52A96004519D8 /* AkFileLocationBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F41AB52A95004519D8 /* AkFileLocationBase.h */; };
+		75D093181AB52A96004519D8 /* AkFileLocationBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F41AB52A95004519D8 /* AkFileLocationBase.h */; };
+		75D093191AB52A96004519D8 /* AkFilePackage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F51AB52A95004519D8 /* AkFilePackage.cpp */; };
+		75D0931A1AB52A96004519D8 /* AkFilePackage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F51AB52A95004519D8 /* AkFilePackage.cpp */; };
+		75D0931B1AB52A96004519D8 /* AkFilePackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F61AB52A95004519D8 /* AkFilePackage.h */; };
+		75D0931C1AB52A96004519D8 /* AkFilePackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F61AB52A95004519D8 /* AkFilePackage.h */; };
+		75D0931D1AB52A96004519D8 /* AkFilePackageLowLevelIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F71AB52A95004519D8 /* AkFilePackageLowLevelIO.h */; };
+		75D0931E1AB52A96004519D8 /* AkFilePackageLowLevelIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092F71AB52A95004519D8 /* AkFilePackageLowLevelIO.h */; };
+		75D0931F1AB52A96004519D8 /* AkFilePackageLUT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F91AB52A95004519D8 /* AkFilePackageLUT.cpp */; };
+		75D093201AB52A96004519D8 /* AkFilePackageLUT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092F91AB52A95004519D8 /* AkFilePackageLUT.cpp */; };
+		75D093211AB52A96004519D8 /* AkFilePackageLUT.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092FA1AB52A95004519D8 /* AkFilePackageLUT.h */; };
+		75D093221AB52A96004519D8 /* AkFilePackageLUT.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092FA1AB52A95004519D8 /* AkFilePackageLUT.h */; };
+		75D093231AB52A96004519D8 /* AkMultipleFileLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092FB1AB52A95004519D8 /* AkMultipleFileLocation.h */; };
+		75D093241AB52A96004519D8 /* AkMultipleFileLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D092FB1AB52A95004519D8 /* AkMultipleFileLocation.h */; };
+		75DD6D711AB2081400896C89 /* CCWwise.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DD6D6F1AB2081400896C89 /* CCWwise.h */; };
+		75DD6D721AB2081500896C89 /* CCWwise.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75DD6D701AB2081400896C89 /* CCWwise.mm */; };
+		75DD6D851AB355FA00896C89 /* libAkSoundEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DD6D831AB355FA00896C89 /* libAkSoundEngine.a */; };
+		75DD6D861AB355FA00896C89 /* libAkSoundEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DD6D831AB355FA00896C89 /* libAkSoundEngine.a */; };
 		75F10CC01A65E1E7008E737B /* CCScheduler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F10CBF1A65E1E7008E737B /* CCScheduler_Private.h */; };
 		75F9BF711A3904D7009185BF /* CCViewportNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F9BF6F1A3904D7009185BF /* CCViewportNode.h */; };
 		75F9BF721A3904D7009185BF /* CCViewportNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F9BF701A3904D7009185BF /* CCViewportNode.m */; };
@@ -1227,6 +1270,30 @@
 		5BC3CB5719626FA000C4F0D0 /* CCGestureListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGestureListener.h; path = Android/CCGestureListener.h; sourceTree = "<group>"; };
 		5BC3CB5819626FA000C4F0D0 /* CCGestureListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGestureListener.m; path = Android/CCGestureListener.m; sourceTree = "<group>"; };
 		750530281A54B21F009AEFA8 /* CCScene+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCScene+Private.h"; sourceTree = "<group>"; };
+		75D092E71AB52A95004519D8 /* AkDefaultIOHookBlocking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkDefaultIOHookBlocking.cpp; sourceTree = "<group>"; };
+		75D092E81AB52A95004519D8 /* AkDefaultIOHookBlocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkDefaultIOHookBlocking.h; sourceTree = "<group>"; };
+		75D092E91AB52A95004519D8 /* AkDefaultIOHookDeferred.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkDefaultIOHookDeferred.cpp; sourceTree = "<group>"; };
+		75D092EA1AB52A95004519D8 /* AkDefaultIOHookDeferred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkDefaultIOHookDeferred.h; sourceTree = "<group>"; };
+		75D092EB1AB52A95004519D8 /* AkFileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFileHelpers.h; sourceTree = "<group>"; };
+		75D092EC1AB52A95004519D8 /* AkFilePackageLowLevelIOBlocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFilePackageLowLevelIOBlocking.h; sourceTree = "<group>"; };
+		75D092ED1AB52A95004519D8 /* AkFilePackageLowLevelIODeferred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFilePackageLowLevelIODeferred.h; sourceTree = "<group>"; };
+		75D092EE1AB52A95004519D8 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		75D092EF1AB52A95004519D8 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		75D092F11AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkDefaultLowLevelIODispatcher.cpp; sourceTree = "<group>"; };
+		75D092F21AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkDefaultLowLevelIODispatcher.h; sourceTree = "<group>"; };
+		75D092F31AB52A95004519D8 /* AkFileLocationBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkFileLocationBase.cpp; sourceTree = "<group>"; };
+		75D092F41AB52A95004519D8 /* AkFileLocationBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFileLocationBase.h; sourceTree = "<group>"; };
+		75D092F51AB52A95004519D8 /* AkFilePackage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkFilePackage.cpp; sourceTree = "<group>"; };
+		75D092F61AB52A95004519D8 /* AkFilePackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFilePackage.h; sourceTree = "<group>"; };
+		75D092F71AB52A95004519D8 /* AkFilePackageLowLevelIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFilePackageLowLevelIO.h; sourceTree = "<group>"; };
+		75D092F81AB52A95004519D8 /* AkFilePackageLowLevelIO.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AkFilePackageLowLevelIO.inl; sourceTree = "<group>"; };
+		75D092F91AB52A95004519D8 /* AkFilePackageLUT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkFilePackageLUT.cpp; sourceTree = "<group>"; };
+		75D092FA1AB52A95004519D8 /* AkFilePackageLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkFilePackageLUT.h; sourceTree = "<group>"; };
+		75D092FB1AB52A95004519D8 /* AkMultipleFileLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkMultipleFileLocation.h; sourceTree = "<group>"; };
+		75D092FC1AB52A95004519D8 /* AkMultipleFileLocation.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AkMultipleFileLocation.inl; sourceTree = "<group>"; };
+		75DD6D6F1AB2081400896C89 /* CCWwise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWwise.h; sourceTree = "<group>"; };
+		75DD6D701AB2081400896C89 /* CCWwise.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCWwise.mm; sourceTree = "<group>"; };
+		75DD6D831AB355FA00896C89 /* libAkSoundEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSoundEngine.a; path = external/WWise/lib/libAkSoundEngine.a; sourceTree = "<group>"; };
 		75F10CBF1A65E1E7008E737B /* CCScheduler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScheduler_Private.h; sourceTree = "<group>"; };
 		75F9BF6F1A3904D7009185BF /* CCViewportNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewportNode.h; sourceTree = "<group>"; };
 		75F9BF701A3904D7009185BF /* CCViewportNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewportNode.m; sourceTree = "<group>"; };
@@ -1554,6 +1621,7 @@
 			files = (
 				B77582CE1A76CDB200C8589F /* libz.dylib in Frameworks */,
 				7A59498319E38C9800F65F90 /* libSSZipArchiveMac.a in Frameworks */,
+				75DD6D851AB355FA00896C89 /* libAkSoundEngine.a in Frameworks */,
 				7A59493F19E380D700F65F90 /* libObjectiveChipmunk-Mac.a in Frameworks */,
 				7A4037C819E3712A007B6E8F /* OpenGL.framework in Frameworks */,
 				7A4037C619E37126007B6E8F /* QuartzCore.framework in Frameworks */,
@@ -1570,6 +1638,7 @@
 				B7E7DE791A76EC06004234B7 /* ApplicationServices.framework in Frameworks */,
 				B7E7DE771A76EBFB004234B7 /* QuartzCore.framework in Frameworks */,
 				B7E7DE751A76EBF0004234B7 /* GLKit.framework in Frameworks */,
+				75DD6D861AB355FA00896C89 /* libAkSoundEngine.a in Frameworks */,
 				B7E7DE731A76EBEA004234B7 /* OpenGL.framework in Frameworks */,
 				B7E7DE711A76EBE1004234B7 /* libz.dylib in Frameworks */,
 				B7E7DE4F1A76DB8F004234B7 /* libcocos2d-mac.a in Frameworks */,
@@ -1628,6 +1697,7 @@
 				B7E7DE421A76DB7E004234B7 /* cocos2dMacFrameworkTests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				75D092FE1AB52A95004519D8 /* Wwise LowLevelIO */,
 			);
 			indentWidth = 4;
 			name = CustomTemplate;
@@ -1639,6 +1709,7 @@
 			isa = PBXGroup;
 			children = (
 				1493BC951A77AA3700840737 /* CoreJava.framework */,
+				75DD6D831AB355FA00896C89 /* libAkSoundEngine.a */,
 				B7E7DE781A76EC06004234B7 /* ApplicationServices.framework */,
 				B7E7DE761A76EBFB004234B7 /* QuartzCore.framework */,
 				B7E7DE741A76EBF0004234B7 /* GLKit.framework */,
@@ -1736,6 +1807,8 @@
 				501CCFB60E99658900B86F68 /* OpenGLSupport */,
 				E0C54DC911F9CF2700B9E4CB /* ccUtils.h */,
 				D33C9CE31A2FAC33004070CA /* CCFile.h */,
+				75DD6D6F1AB2081400896C89 /* CCWwise.h */,
+				75DD6D701AB2081400896C89 /* CCWwise.mm */,
 				D33C9CE41A2FAC33004070CA /* CCFile.m */,
 				50C508C40F7C194400799124 /* CCFileUtils.h */,
 				50C508C50F7C194400799124 /* CCFileUtils.m */,
@@ -1964,6 +2037,50 @@
 				571CD02519649E03003D460C /* CCPlatformTextFieldMac.m */,
 			);
 			path = Mac;
+			sourceTree = "<group>";
+		};
+		75D092F01AB52A95004519D8 /* POSIX */ = {
+			isa = PBXGroup;
+			children = (
+				75D092E71AB52A95004519D8 /* AkDefaultIOHookBlocking.cpp */,
+				75D092E81AB52A95004519D8 /* AkDefaultIOHookBlocking.h */,
+				75D092E91AB52A95004519D8 /* AkDefaultIOHookDeferred.cpp */,
+				75D092EA1AB52A95004519D8 /* AkDefaultIOHookDeferred.h */,
+				75D092EB1AB52A95004519D8 /* AkFileHelpers.h */,
+				75D092EC1AB52A95004519D8 /* AkFilePackageLowLevelIOBlocking.h */,
+				75D092ED1AB52A95004519D8 /* AkFilePackageLowLevelIODeferred.h */,
+				75D092EE1AB52A95004519D8 /* stdafx.cpp */,
+				75D092EF1AB52A95004519D8 /* stdafx.h */,
+			);
+			name = POSIX;
+			sourceTree = "<group>";
+		};
+		75D092FD1AB52A95004519D8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				75D092F11AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.cpp */,
+				75D092F21AB52A95004519D8 /* AkDefaultLowLevelIODispatcher.h */,
+				75D092F31AB52A95004519D8 /* AkFileLocationBase.cpp */,
+				75D092F41AB52A95004519D8 /* AkFileLocationBase.h */,
+				75D092F51AB52A95004519D8 /* AkFilePackage.cpp */,
+				75D092F61AB52A95004519D8 /* AkFilePackage.h */,
+				75D092F71AB52A95004519D8 /* AkFilePackageLowLevelIO.h */,
+				75D092F81AB52A95004519D8 /* AkFilePackageLowLevelIO.inl */,
+				75D092F91AB52A95004519D8 /* AkFilePackageLUT.cpp */,
+				75D092FA1AB52A95004519D8 /* AkFilePackageLUT.h */,
+				75D092FB1AB52A95004519D8 /* AkMultipleFileLocation.h */,
+				75D092FC1AB52A95004519D8 /* AkMultipleFileLocation.inl */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		75D092FE1AB52A95004519D8 /* Wwise LowLevelIO */ = {
+			isa = PBXGroup;
+			children = (
+				75D092F01AB52A95004519D8 /* POSIX */,
+				75D092FD1AB52A95004519D8 /* Common */,
+			);
+			name = "Wwise LowLevelIO";
 			sourceTree = "<group>";
 		};
 		83409E2B19D5B791004B7EB9 /* Products */ = {
@@ -2402,6 +2519,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D093011AB52A96004519D8 /* AkDefaultIOHookBlocking.h in Headers */,
 				D2DDB09919805E8400233D80 /* CCQuaternion.h in Headers */,
 				B7D273111822F4AA0054849B /* CCBLocalizationManager.h in Headers */,
 				5018F2690DFDEAFF00C013A5 /* CCAction.h in Headers */,
@@ -2422,7 +2540,9 @@
 				9D856721191B019900573093 /* CCEffectContrast.h in Headers */,
 				50F9E8170E1AA34E000E7616 /* ccTypes.h in Headers */,
 				D3A2E7D2181E12750033614C /* CCPhysicsShape.h in Headers */,
+				75D093051AB52A96004519D8 /* AkDefaultIOHookDeferred.h in Headers */,
 				D3D976361A896AC000462614 /* CCAction_Private.h in Headers */,
+				75D093131AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.h in Headers */,
 				D2AB4B411A63C7400019215E /* CCGLFence.h in Headers */,
 				D24160FD1958F6EE003673BD /* CCAnimationManager_Private.h in Headers */,
 				506602110E38A70D000B500E /* CCScheduler.h in Headers */,
@@ -2466,6 +2586,7 @@
 				D272032D18FC89A000B100FF /* CCEffectStack.h in Headers */,
 				B7E260D818171D2000A0E872 /* CCTextField.h in Headers */,
 				D304BC2B1A1DA8E5005A0260 /* CCRenderableNode_Private.h in Headers */,
+				75D0930B1AB52A96004519D8 /* AkFilePackageLowLevelIODeferred.h in Headers */,
 				D2C788261A5D32C10070EA5D /* CCView.h in Headers */,
 				D34CAD6C19C3AA10009BED7A /* CCRendererBasicTypes_Private.h in Headers */,
 				D268FE13198078FF00ECBCD0 /* CCEffectReflection.h in Headers */,
@@ -2485,6 +2606,7 @@
 				D304BC211A1DA3BD005A0260 /* CCRenderableNode.h in Headers */,
 				83E1A87619C8ACC1000A3BCA /* CCPackageDownload.h in Headers */,
 				505462FC1062768000AB7C52 /* ccConfig.h in Headers */,
+				75DD6D711AB2081400896C89 /* CCWwise.h in Headers */,
 				50E2A15010A45E7F00D894CE /* CCSpriteFrame.h in Headers */,
 				D2DDB0A319805E8400233D80 /* CCVector2.h in Headers */,
 				B7E776211857A159004221AA /* CCColor.h in Headers */,
@@ -2494,6 +2616,7 @@
 				50E1357510ADEB1B00C9E7FA /* CCTexture.h in Headers */,
 				50D2AC9510E90DFA0068ECEB /* CCTiledMapLayer.h in Headers */,
 				83E1A87919C8ACC1000A3BCA /* CCPackageDownloadManager.h in Headers */,
+				75D0930F1AB52A96004519D8 /* stdafx.h in Headers */,
 				50D2AC9710E90DFA0068ECEB /* CCTiledMapObjectGroup.h in Headers */,
 				D268FE11198078FF00ECBCD0 /* CCEffectHue.h in Headers */,
 				B7D273151822F4AA0054849B /* CCBSequence.h in Headers */,
@@ -2513,12 +2636,14 @@
 				D2DDB09519805E8400233D80 /* CCMatrix3.h in Headers */,
 				E0EAD0FF121F4B4600B0C81C /* CCDirectorIOS.h in Headers */,
 				83E1A86219C8ACA0000A3BCA /* CCPackage.h in Headers */,
+				75D093211AB52A96004519D8 /* AkFilePackageLUT.h in Headers */,
 				B798D143181F469100E7BFCD /* CCLabelBMFont_Private.h in Headers */,
 				D3903B0A1995285B003AA81A /* CCEffectBlur.h in Headers */,
 				E0EAD19D121F4D7300B0C81C /* CCGL.h in Headers */,
 				839CE58619FFB139003369F0 /* CCEffectInvert.h in Headers */,
 				E0EAD1F1121F522A00B0C81C /* CCDeviceInfo.h in Headers */,
 				9D85671D191B018200573093 /* CCEffectBrightness.h in Headers */,
+				75D093171AB52A96004519D8 /* AkFileLocationBase.h in Headers */,
 				D272032B18FC89A000B100FF /* CCEffectNode.h in Headers */,
 				83E1A87B19C8ACC1000A3BCA /* CCPackageDownloadManagerDelegate.h in Headers */,
 				E0F92AC41224559800EF2362 /* CCNS.h in Headers */,
@@ -2530,12 +2655,14 @@
 				B7E775D018527EF0004221AA /* CCAppDelegate.h in Headers */,
 				E0BC7D9F1342CE7B001B4DCC /* CCShader.h in Headers */,
 				D2DDB09319805E8400233D80 /* CCMathUtilsAndroid.h in Headers */,
+				75D0931B1AB52A96004519D8 /* AkFilePackage.h in Headers */,
 				D39FA9C818C1BC6B00441627 /* CCShader_Private.h in Headers */,
 				A046E29314C1DB7D0005BBF2 /* CCDirectorMac.h in Headers */,
 				D34CAD6119C3A0B5009BED7A /* NSValue+CCRenderer.h in Headers */,
 				A046E29914C1DB7E0005BBF2 /* CCWindow.h in Headers */,
 				B791E85E182074C500DAE1D7 /* CCProgressNode.h in Headers */,
 				B7EE69E01819E75700B983FE /* CCLayout.h in Headers */,
+				75D093091AB52A96004519D8 /* AkFilePackageLowLevelIOBlocking.h in Headers */,
 				D3903B14199528B6003AA81A /* CCMetalView.h in Headers */,
 				B791E84A182064BF00DAE1D7 /* CCTiledMapLayer_Private.h in Headers */,
 				83E1A86F19C8ACAF000A3BCA /* CCPackageUnzipperDelegate.h in Headers */,
@@ -2554,6 +2681,7 @@
 				A003AC8C1657071100C7B792 /* ccFPSImages.h in Headers */,
 				750530291A54B21F009AEFA8 /* CCScene+Private.h in Headers */,
 				B74C2B9B17BDA63A00A829C0 /* CCSprite9Slice.h in Headers */,
+				75D093231AB52A96004519D8 /* AkMultipleFileLocation.h in Headers */,
 				B77060CF18341AD50043CC67 /* CCBReader_Private.h in Headers */,
 				D24161021958F6EE003673BD /* CCBAnimationManager.h in Headers */,
 				B75C2E7C17C5908B002B0E0D /* NSAttributedString+CCAdditions.h in Headers */,
@@ -2579,9 +2707,11 @@
 				E525F3A066BDE8475066B6AE /* CCFileLocator.h in Headers */,
 				E525FC3175FC804CDD67BDB8 /* CCFileUtils.h in Headers */,
 				E525F542BD4A2593B01B08D0 /* CCFile_Private.h in Headers */,
+				75D093071AB52A96004519D8 /* AkFileHelpers.h in Headers */,
 				E525FD0AE79B61E0BD5EB4E1 /* CCFile.h in Headers */,
 				E525F8FE1F141E04EC2752B0 /* CCFileLocatorDatabaseProtocol.h in Headers */,
 				E525FA755CF93D0FC7557E12 /* CCFileMetaData.h in Headers */,
+				75D0931D1AB52A96004519D8 /* AkFilePackageLowLevelIO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2591,6 +2721,7 @@
 			files = (
 				7A59464519E372EE00F65F90 /* CCEffectDistanceField.h in Headers */,
 				7A59464719E372EE00F65F90 /* CCEffectDFOutline.h in Headers */,
+				75D0930A1AB52A96004519D8 /* AkFilePackageLowLevelIOBlocking.h in Headers */,
 				7A59464919E372EE00F65F90 /* CCEffectDFInnerGlow.h in Headers */,
 				7A59464B19E372EE00F65F90 /* CCEffectColorChannelOffset.h in Headers */,
 				7A59464D19E372EE00F65F90 /* CCEffectBlur.h in Headers */,
@@ -2600,9 +2731,11 @@
 				7A59465519E372EE00F65F90 /* CCEffectGlass.h in Headers */,
 				7A59465719E372EE00F65F90 /* CCEffectHue.h in Headers */,
 				7A59465919E372EE00F65F90 /* CCEffectReflection.h in Headers */,
+				75D093081AB52A96004519D8 /* AkFileHelpers.h in Headers */,
 				9D9205D41A0173D600FF2D6D /* CCLightCollection.h in Headers */,
 				7A59465B19E372EE00F65F90 /* CCEffectRenderer.h in Headers */,
 				7A59465D19E372EE00F65F90 /* CCEffectSaturation.h in Headers */,
+				75D093061AB52A96004519D8 /* AkDefaultIOHookDeferred.h in Headers */,
 				7A59465F19E372EE00F65F90 /* CCEffectStackProtocol.h in Headers */,
 				7A59466019E372EE00F65F90 /* CCEffect_Private.h in Headers */,
 				7A59466119E372EE00F65F90 /* CCEffect.h in Headers */,
@@ -2614,7 +2747,9 @@
 				7A59466819E372EE00F65F90 /* CCEffectContrast.h in Headers */,
 				7A59466A19E372EE00F65F90 /* CCEffectPixellate.h in Headers */,
 				7A59466C19E372EE00F65F90 /* CCEffectDropShadow.h in Headers */,
+				75D093181AB52A96004519D8 /* AkFileLocationBase.h in Headers */,
 				7A59466E19E372EE00F65F90 /* CCNode.h in Headers */,
+				75D093021AB52A96004519D8 /* AkDefaultIOHookBlocking.h in Headers */,
 				7A59467219E372EF00F65F90 /* CCNode_Private.h in Headers */,
 				7A59467319E372EF00F65F90 /* CCLayout.h in Headers */,
 				7A59467519E372EF00F65F90 /* CCLayoutBox.h in Headers */,
@@ -2634,6 +2769,7 @@
 				7A59469319E372F000F65F90 /* CCTouchEvent.h in Headers */,
 				7A59469519E372F000F65F90 /* CCParticleSystemBase.h in Headers */,
 				7A59469719E372F100F65F90 /* CCParticleSystem.h in Headers */,
+				75D0931C1AB52A96004519D8 /* AkFilePackage.h in Headers */,
 				7A59469D19E372F100F65F90 /* CCParticleSystemBase_Private.h in Headers */,
 				7A59469E19E372F100F65F90 /* CCParticleSystem_Private.h in Headers */,
 				7A5946A119E372F100F65F90 /* CCTiledMap.h in Headers */,
@@ -2692,11 +2828,13 @@
 				7A5946F219E372FA00F65F90 /* CCTexture_Private.h in Headers */,
 				7A5946F319E372FB00F65F90 /* CCTextureCache.h in Headers */,
 				7A5946F519E372FB00F65F90 /* uthash.h in Headers */,
+				75D0931E1AB52A96004519D8 /* AkFilePackageLowLevelIO.h in Headers */,
 				7A5946F619E372FB00F65F90 /* utlist.h in Headers */,
 				7A5946F919E372FB00F65F90 /* CGPointExtension.h in Headers */,
 				5BC1DE2A1A2E2099009C2E67 /* NSEvent+CC.h in Headers */,
 				7A5946FE19E372FC00F65F90 /* ccUtils.h in Headers */,
 				7A59470719E372FE00F65F90 /* NSAttributedString+CCAdditions.h in Headers */,
+				75D0930C1AB52A96004519D8 /* AkFilePackageLowLevelIODeferred.h in Headers */,
 				7A59470919E372FE00F65F90 /* CCColor.h in Headers */,
 				7A59470B19E372FE00F65F90 /* CCCache.h in Headers */,
 				7A59470D19E372FF00F65F90 /* CCRenderDispatch.h in Headers */,
@@ -2728,6 +2866,7 @@
 				7A59473F19E3730B00F65F90 /* CCTouchIOS.h in Headers */,
 				7A59474119E3730B00F65F90 /* CCMetalSupport_Private.h in Headers */,
 				7A59474319E3730C00F65F90 /* CCDirectorMac.h in Headers */,
+				75D093141AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.h in Headers */,
 				7A59474719E3730D00F65F90 /* CCWindow.h in Headers */,
 				7A59474919E3730D00F65F90 /* CCGL.h in Headers */,
 				7A59474A19E3730D00F65F90 /* CCNS.h in Headers */,
@@ -2747,11 +2886,13 @@
 				7A59476219E3731400F65F90 /* CCPlatformTextFieldIOS.h in Headers */,
 				7A59476419E3731500F65F90 /* CCPlatformTextFieldMac.h in Headers */,
 				9DC780BA1A1175F100DD5A4B /* CCLightNode.h in Headers */,
+				75D093241AB52A96004519D8 /* AkMultipleFileLocation.h in Headers */,
 				7A59476619E3731600F65F90 /* CCAnimationManager_Private.h in Headers */,
 				7A59476719E3731600F65F90 /* CCAnimationManager.h in Headers */,
 				7A59476919E3731700F65F90 /* CCAnimationManager+FrameAnimation.h in Headers */,
 				D36369D51A1E85DF007EE5FC /* CCDeprecated.h in Headers */,
 				7A59476B19E3731800F65F90 /* CCBAnimationManager.h in Headers */,
+				75D093101AB52A96004519D8 /* stdafx.h in Headers */,
 				7A59476D19E3731800F65F90 /* CCBKeyframe.h in Headers */,
 				7A59476F19E3731900F65F90 /* CCBLocalizationManager.h in Headers */,
 				7A59477119E3731A00F65F90 /* CCBReader.h in Headers */,
@@ -2772,6 +2913,7 @@
 				E525F20E7A6C64087689A600 /* CCFileLocatorDatabase.h in Headers */,
 				E525FD31A72B65683F3E1939 /* CCFileUtils.h in Headers */,
 				E525FD8AEC52F93616611BF1 /* CCFile_Private.h in Headers */,
+				75D093221AB52A96004519D8 /* AkFilePackageLUT.h in Headers */,
 				E525F9045267E4D7585C9923 /* CCFile.h in Headers */,
 				E525FA4D5F23AFBCF4FC6AC2 /* CCFileLocatorDatabaseProtocol.h in Headers */,
 				E525F33AF0E1AA506C28EB18 /* CCFileMetaData.h in Headers */,
@@ -2849,7 +2991,6 @@
 				D2FEB64B194F6C9E00FC0574 /* CCBReader.h in Headers */,
 				D2FEB64C194F6C9E00FC0574 /* CCEffectPixellate.h in Headers */,
 				14B84C931A700B55002C4D20 /* CCAppController.h in Headers */,
-				D2FEB64D194F6C9E00FC0574 /* CCActionManager.h in Headers */,
 				D2FEB64E194F6C9E00FC0574 /* CCTiledMap.h in Headers */,
 				BC9F4E9819DB644600B25F01 /* CCPackageManager.h in Headers */,
 				BC9F4E9919DB644900B25F01 /* CCPackageManagerDelegate.h in Headers */,
@@ -3196,6 +3337,7 @@
 				5018F26C0DFDEAFF00C013A5 /* CCNode.m in Sources */,
 				5018F26E0DFDEAFF00C013A5 /* CCDirector.m in Sources */,
 				5018F2700DFDEAFF00C013A5 /* CCActionInstant.m in Sources */,
+				75D093111AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.cpp in Sources */,
 				5018F2720DFDEAFF00C013A5 /* CCActionInterval.m in Sources */,
 				D33803EA180331A90072D8FE /* CCPhysicsJoint.m in Sources */,
 				D26A042B194B815500503BEC /* CCTouchEvent.m in Sources */,
@@ -3207,6 +3349,7 @@
 				5018F2760DFDEAFF00C013A5 /* CCNodeColor.m in Sources */,
 				5018F2780DFDEAFF00C013A5 /* CCScene.m in Sources */,
 				5018F27E0DFDEAFF00C013A5 /* CCTextureCache.m in Sources */,
+				75D0931F1AB52A96004519D8 /* AkFilePackageLUT.cpp in Sources */,
 				D31C795019994126007921E1 /* CCMetalSupport.m in Sources */,
 				D2DDB09D19805E8400233D80 /* CCMatrix4.m in Sources */,
 				5038B6B30E196CD8009A621E /* CCParticleSystemBase.m in Sources */,
@@ -3267,6 +3410,7 @@
 				D285ECF9192EF5B2009F4E88 /* CCDirectorAndroid.m in Sources */,
 				D268FE0E198078FF00ECBCD0 /* CCEffectBloom.m in Sources */,
 				9D85671E191B018200573093 /* CCEffectBrightness.m in Sources */,
+				75D093151AB52A96004519D8 /* AkFileLocationBase.cpp in Sources */,
 				D268FE14198078FF00ECBCD0 /* CCEffectReflection.m in Sources */,
 				B7D273101822F4AA0054849B /* CCBKeyframe.m in Sources */,
 				E0F924721224140400EF2362 /* CCTexture+PVR.m in Sources */,
@@ -3275,9 +3419,12 @@
 				E0BC7DA01342CE7B001B4DCC /* CCShader.m in Sources */,
 				A046E29414C1DB7D0005BBF2 /* CCDirectorMac.m in Sources */,
 				A046E29A14C1DB7E0005BBF2 /* CCWindow.m in Sources */,
+				75D0930D1AB52A96004519D8 /* stdafx.cpp in Sources */,
+				75DD6D721AB2081500896C89 /* CCWwise.mm in Sources */,
 				B7D273121822F4AA0054849B /* CCBLocalizationManager.m in Sources */,
 				D241610B1958F72B003673BD /* CCEffectRenderer.m in Sources */,
 				B7D273161822F4AA0054849B /* CCBsequence.m in Sources */,
+				75D093031AB52A96004519D8 /* AkDefaultIOHookDeferred.cpp in Sources */,
 				9DF37622191C594A00C6D27A /* CCEffectPixellate.m in Sources */,
 				A0A7A53D1514F27D00C8BD16 /* CCActionCatmullRom.m in Sources */,
 				D380581B1889AD6000822437 /* CCRenderer.m in Sources */,
@@ -3289,6 +3436,7 @@
 				D27451B819AE5517006DA0A1 /* CCEffectDistanceField.m in Sources */,
 				A0DA0BC415BCDCA200E80A92 /* CCDrawNode.m in Sources */,
 				D27451AC19AD430A006DA0A1 /* CCEffectDropShadow.m in Sources */,
+				75D093191AB52A96004519D8 /* AkFilePackage.cpp in Sources */,
 				B7EE69E11819E75700B983FE /* CCLayout.m in Sources */,
 				2B192836163361B10049A044 /* CCClippingNode.m in Sources */,
 				9D69E6D719DF604800C2749C /* CCLightNode.m in Sources */,
@@ -3298,6 +3446,7 @@
 				B75C2E7D17C5908B002B0E0D /* NSAttributedString+CCAdditions.m in Sources */,
 				B7EE69E31819E75700B983FE /* CCLayoutBox.m in Sources */,
 				83E1A88719C8ACDC000A3BCA /* CCPackageCocos2dEnabler.m in Sources */,
+				75D092FF1AB52A96004519D8 /* AkDefaultIOHookBlocking.cpp in Sources */,
 				B7E776221857A159004221AA /* CCColor.m in Sources */,
 				A6DC4E0A18055DCC00C280A6 /* CCTransition.m in Sources */,
 				A6A0734617C788EB004343C8 /* CCResponderManager.m in Sources */,
@@ -3342,6 +3491,7 @@
 				7A59479919E3759900F65F90 /* CCEffectBlur.m in Sources */,
 				7A59479B19E3759900F65F90 /* CCEffectRefraction.m in Sources */,
 				7A59479D19E3759900F65F90 /* CCEffectUtils.m in Sources */,
+				75D093201AB52A96004519D8 /* AkFilePackageLUT.cpp in Sources */,
 				7A59479F19E3759900F65F90 /* CCEffectBloom.m in Sources */,
 				7A5947A119E3759900F65F90 /* CCEffectGlass.m in Sources */,
 				7A5947A319E3759A00F65F90 /* CCEffectHue.m in Sources */,
@@ -3367,6 +3517,7 @@
 				7A5947CE19E3759E00F65F90 /* CCSprite.m in Sources */,
 				7A5947D019E3759E00F65F90 /* CCSprite9Slice.m in Sources */,
 				7A5947D419E3759E00F65F90 /* CCSpriteFrame.m in Sources */,
+				75D092751AB396EE004519D8 /* CCWwise.mm in Sources */,
 				7A5947D619E3759F00F65F90 /* CCSpriteFrameCache.m in Sources */,
 				7A5947D919E3759F00F65F90 /* CCResponder.m in Sources */,
 				7A5947DB19E3759F00F65F90 /* CCResponderManager.m in Sources */,
@@ -3403,6 +3554,7 @@
 				7A59482E19E375A800F65F90 /* CCActionInstant.m in Sources */,
 				7A59483019E375A800F65F90 /* CCActionInterval.m in Sources */,
 				7A59483219E375A800F65F90 /* CCActionEase.m in Sources */,
+				75D093121AB52A96004519D8 /* AkDefaultLowLevelIODispatcher.cpp in Sources */,
 				7A59483419E375A900F65F90 /* CCActionCatmullRom.m in Sources */,
 				7A59483619E375A900F65F90 /* CCActionProgressTimer.m in Sources */,
 				7A59483819E375A900F65F90 /* CCActionTween.m in Sources */,
@@ -3418,6 +3570,7 @@
 				7A59485919E375AD00F65F90 /* CCRenderDispatch.m in Sources */,
 				7A59485D19E375AD00F65F90 /* CCRendererBasicTypes.m in Sources */,
 				7A59486019E375AE00F65F90 /* CCShader.m in Sources */,
+				75D093041AB52A96004519D8 /* AkDefaultIOHookDeferred.cpp in Sources */,
 				7A59486219E375AE00F65F90 /* NSValue+CCRenderer.m in Sources */,
 				7A59486519E375AE00F65F90 /* CCRenderer.m in Sources */,
 				7A59486619E375AE00F65F90 /* CCRendererGLSupport.m in Sources */,
@@ -3427,8 +3580,11 @@
 				7A59487119E375B000F65F90 /* CCMatrix3.m in Sources */,
 				D304BC291A1DA3CA005A0260 /* CCRenderableNode.m in Sources */,
 				7A59487A19E375B100F65F90 /* CCDirectorAndroid.m in Sources */,
+				75D0931A1AB52A96004519D8 /* AkFilePackage.cpp in Sources */,
 				7A59487E19E375B100F65F90 /* CCGestureListener.m in Sources */,
+				75D093161AB52A96004519D8 /* AkFileLocationBase.cpp in Sources */,
 				7A59488119E375B200F65F90 /* CCMetalView.m in Sources */,
+				75D0930E1AB52A96004519D8 /* stdafx.cpp in Sources */,
 				7A59488319E375B200F65F90 /* UITouch+CC.m in Sources */,
 				7A59488519E375B200F65F90 /* CCDirectorIOS.m in Sources */,
 				7A59488919E375B300F65F90 /* CCAppDelegate.m in Sources */,
@@ -3462,6 +3618,7 @@
 				E525FDA7B507E04BB91F234B /* CCNode+RecursiveDescription.m in Sources */,
 				E525F08A8E837CDF4B664FD8 /* CCFileLocatorDatabase.m in Sources */,
 				E525F68F63777B9BC24FE8BA /* CCFileUtils.m in Sources */,
+				75D093001AB52A96004519D8 /* AkDefaultIOHookBlocking.cpp in Sources */,
 				E525FB58147A0CB8D84908FC /* CCFileLocator.m in Sources */,
 				E525F352B250D548DC95FB42 /* CCFile.m in Sources */,
 				E525F7A457E633F80E21CDCB /* CCFileMetaData.m in Sources */,
@@ -3515,7 +3672,6 @@
 				D2FEB6D6194F6C9E00FC0574 /* CCTMXXMLParser.m in Sources */,
 				D2FEB6D7194F6C9E00FC0574 /* CCSprite.m in Sources */,
 				D2FEB6D8194F6C9E00FC0574 /* CCTiledMap.m in Sources */,
-				D2FEB6D9194F6C9E00FC0574 /* CCFileUtils.m in Sources */,
 				14B84C961A700B55002C4D20 /* CCAppController.m in Sources */,
 				D2FEB6DB194F6C9E00FC0574 /* CCTouch.m in Sources */,
 				D2EC6039199D9F82001A15E9 /* CCRendererGLSupport.m in Sources */,
@@ -3702,13 +3858,54 @@
 					"$(SRCROOT)/external/Chipmunk/objectivec/include",
 					"$(SRCROOT)/external/ObjectAL/**",
 					"$(SRCROOT)/external/SSZipArchive/**",
+					"$(SRCROOT)/external/WWise/include/**",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+					"$(PROJECT_DIR)/external/WWise/lib",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lAkHarmonizerFX",
+					"-lAkPitchShifterFX",
+					"-lAkStereoDelayFX",
+					"-lAkTimeStretchFX",
+					"-lAkMeterFX",
+					"-lAkConvolutionReverbFX",
+					"-lAkAACDecoder",
+					"-lAkAudioInputSource",
+					"-lAkSilenceSource",
+					"-lAkSynthOne",
+					"-lAkPeakLimiterFX",
+					"-lAkRoomVerbFX",
+					"-lAkParametricEQFX",
+					"-lAkGainFX",
+					"-lAkDelayFX",
+					"-lAkMatrixReverbFX",
+					"-lAkExpanderFX",
+					"-lAkCompressorFX",
+					"-lAkSineSource",
+					"-lAkGuitarDistortionFX",
+					"-lAkTremoloFX",
+					"-lAkFlangerFX",
+					"-lAkToneSource",
+					"-lAkSoundSeedImpactFX",
+					"-lAkMemoryMgr",
+					"-lAkMusicEngine",
+					"-lMcDSPLimiterFX",
+					"-lMcDSPFutzBoxFX",
+					"-lAkSoundSeedWoosh",
+					"-lAkSoundSeedWind",
+					"-lAkSoundEngine",
+					"-lAkStreamMgr",
+					"-lAkVorbisDecoder",
+					"-lAstoundsoundExpanderFX",
+					"-lAstoundsoundFolddownFX",
+					"-lAstoundsoundRTIFX",
+					"-lAstoundsoundShared",
+					"-lCommunicationCentral",
+				);
 				PRODUCT_NAME = cocos2d;
 				SKIP_INSTALL = YES;
 			};
@@ -3738,12 +3935,52 @@
 					"$(SRCROOT)/external/Chipmunk/objectivec/include",
 					"$(SRCROOT)/external/ObjectAL/**",
 					"$(SRCROOT)/external/SSZipArchive/**",
+					"$(SRCROOT)/external/WWise/include/**",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+					"$(PROJECT_DIR)/external/WWise/lib",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lAkStereoDelayFX",
+					"-lAkHarmonizerFX",
+					"-lAkPitchShifterFX",
+					"-lAkTimeStretchFX",
+					"-lAkMeterFX",
+					"-lAkConvolutionReverbFX",
+					"-lAkAACDecoder",
+					"-lAkAudioInputSource",
+					"-lAkSilenceSource",
+					"-lAkSynthOne",
+					"-lAkPeakLimiterFX",
+					"-lAkRoomVerbFX",
+					"-lAkParametricEQFX",
+					"-lAkGainFX",
+					"-lAkDelayFX",
+					"-lAkMatrixReverbFX",
+					"-lAkExpanderFX",
+					"-lAkCompressorFX",
+					"-lAkSineSource",
+					"-lAkGuitarDistortionFX",
+					"-lAkTremoloFX",
+					"-lAkFlangerFX",
+					"-lAkToneSource",
+					"-lAkSoundSeedImpactFX",
+					"-lAkMemoryMgr",
+					"-lAkMusicEngine",
+					"-lMcDSPLimiterFX",
+					"-lMcDSPFutzBoxFX",
+					"-lAkSoundSeedWoosh",
+					"-lAkSoundSeedWind",
+					"-lAkSoundEngine",
+					"-lAkStreamMgr",
+					"-lAkVorbisDecoder",
+					"-lAstoundsoundExpanderFX",
+					"-lAstoundsoundFolddownFX",
+					"-lAstoundsoundRTIFX",
+					"-lAstoundsoundShared",
+				);
 				PRODUCT_NAME = cocos2d;
 				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
@@ -3772,6 +4009,10 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/WWise/lib",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -3800,6 +4041,10 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/WWise/lib",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -3854,6 +4099,10 @@
 				INFOPLIST_FILE = cocos2dMacFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/WWise/lib",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = (
@@ -3896,6 +4145,10 @@
 				INFOPLIST_FILE = cocos2dMacFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/WWise/lib",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
@@ -3955,6 +4208,7 @@
 					external/Chipmunk/objectivec/include,
 					"external/ObjectAL/**",
 					"external/SSZipArchive/**",
+					"\"$(SRCROOT)/external/WWise/include\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4009,6 +4263,7 @@
 					external/Chipmunk/objectivec/include,
 					"external/ObjectAL/**",
 					"external/SSZipArchive/**",
+					"\"$(SRCROOT)/external/WWise/include\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4158,6 +4413,7 @@
 				B7E7DE491A76DB7E004234B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cocos2d" */ = {
 			isa = XCConfigurationList;
