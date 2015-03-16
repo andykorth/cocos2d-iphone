@@ -34,5 +34,6 @@
 - (void) registerGameObject:(CCNode *) n;
 - (void) postEvent:(NSString *) eventName forGameObject:(CCNode *) n;
 - (BOOL) loadBank:(NSString *)soundBankFile;
-    
+- (void) RenderAudio;
+- (void) terminate;
 @end

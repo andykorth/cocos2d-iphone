@@ -38,25 +38,6 @@
 #include <AK/SoundEngine/Common/AkTypes.h>
 #include <AK/Tools/Common/AkPlatformFuncs.h>
 
-#ifdef AK_SOUNDINPUT_DEBUG
-#undef AK_OPTIMIZED
-
-#define LOG_ERROR(msg) printf("Error: %s, %d: %s\n", __FILE__, __LINE__, msg)
-#else
-#define LOG_ERROR(msg)
-#endif //ifdef AK_SOUNDINPUT_DEBUG
-
-// uhhhhh
-#define AK_MALLOC(nBytes) malloc(nBytes)
-#define AK_MALLOC_ARRAY(arraySize, dataType) malloc(arraySize*sizeof(dataType))
-#define AK_SAFE_FREE(pointer) free(pointer); pointer = NULL
-
-#define AK_NEW(type) new type
-#define AK_SAFE_DELETE(obj) delete obj; obj = NULL
-
-#define AK_MEMSET_ZERO(array, arraySize, dataType) memset(array, 0, arraySize*sizeof(dataType))
-#define AK_MEMCPY(destArray, srcArray, nArrayBytes) memcpy(destArray, srcArray, nArrayBytes)
-
 // No sensible defaults, so I provide my own sensible defaults.
 namespace AK
 {
@@ -73,6 +54,7 @@ namespace AK
 // Gotta add more shit to config the init.
 #include <AK/SoundEngine/Common/AkMemoryMgr.h>		// Memory Manager
 #include <AK/SoundEngine/Common/AkModule.h>			// Default memory and stream managers
+
 #include <AK/SoundEngine/Common/IAkStreamMgr.h>		// Streaming Manager
 #include <AK/SoundEngine/Common/AkSoundEngine.h>    // Sound engine
 #include <AK/MusicEngine/Common/AkMusicEngine.h>	// Music Engine
@@ -99,8 +81,8 @@ static CCWwise *shared;
     return [super alloc];
 }
 
-#define DEMO_DEFAULT_POOL_SIZE 2*1024*1024
-#define DEMO_LENGINE_DEFAULT_POOL_SIZE 1*1024*1024
+#define DEFAULT_POOL_SIZE 2*1024*1024
+#define LENGINE_DEFAULT_POOL_SIZE 1*1024*1024
 
 + (CCWwise *) sharedManager{
     if (!shared){
@@ -117,15 +99,13 @@ static CCWwise *shared;
         
         memSettings.uMaxNumPools = 20;
         AK::StreamMgr::GetDefaultSettings( stmSettings );
-        
         AK::StreamMgr::GetDefaultDeviceSettings( deviceSettings );
-        
         AK::SoundEngine::GetDefaultInitSettings( initSettings );
-        initSettings.uDefaultPoolSize = DEMO_DEFAULT_POOL_SIZE;
-
         
+        initSettings.uDefaultPoolSize = DEFAULT_POOL_SIZE;
+
         AK::SoundEngine::GetDefaultPlatformInitSettings( platformInitSettings );
-        platformInitSettings.uLEngineDefaultPoolSize = DEMO_LENGINE_DEFAULT_POOL_SIZE;
+        platformInitSettings.uLEngineDefaultPoolSize = LENGINE_DEFAULT_POOL_SIZE;
         
         AK::MusicEngine::GetDefaultInitSettings( musicInit );
         
@@ -161,7 +141,17 @@ static CCWwise *shared;
             abort();
         }
         
-        // m_pLowLevelIO->SetBasePath( SOUND_BANK_PATH );
+        res = AK::MusicEngine::Init( &musicInit );
+        if ( res != AK_Success )
+        {
+            NSLog(@"Could not initialize the Music Engine returned AKRESULT %d", res );
+            abort();
+        }
+        
+        
+        
+//        shared->m_pLowLevelIO->SetBasePath("./");
+        shared->m_pLowLevelIO->SetBasePath("./cocos2d-tests-mac.app/Contents/Resources/Resources-shared/WwiseContent/");
         
         // Set global language. Low-level I/O devices can use this string to find language-specific assets.
         // even though I don't care
@@ -169,10 +159,33 @@ static CCWwise *shared;
         {
             NSLog(@"couldn't set language but I don't care" );
         }
-        
+        NSLog(@"Successfully started wwise.");
     }
     
     return shared;
+}
+
+- (void) terminate
+{
+    NSLog(@"terminating sound engine.");
+    
+    AK::MusicEngine::Term();
+    AK::SoundEngine::Term();
+    
+    // CAkFilePackageLowLevelIOBlocking::Term() destroys its associated streaming device
+    // that lives in the Stream Manager, and unregisters itself as the File Location Resolver.
+    m_pLowLevelIO->Term();
+    
+    if ( AK::IAkStreamMgr::Get() )
+        AK::IAkStreamMgr::Get()->Destroy();
+    
+    // Terminate the Memory Manager
+    AK::MemoryMgr::Term();
+}
+
+- (void) RenderAudio
+{
+    AK::SoundEngine::RenderAudio();
 }
 
 // now my shit is here

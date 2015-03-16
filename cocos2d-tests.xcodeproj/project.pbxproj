@@ -72,8 +72,6 @@
 		75D0929B1AB39A12004519D8 /* libMcDSPLimiterFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DD6D8F1AB36BF500896C89 /* libMcDSPLimiterFX.a */; };
 		75D0929D1AB39A2F004519D8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D0929C1AB39A2F004519D8 /* CoreAudio.framework */; };
 		75D0929F1AB510F4004519D8 /* libCommunicationCentral.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D0929E1AB510F4004519D8 /* libCommunicationCentral.a */; };
-		75D092A11AB5183B004519D8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D092A01AB5183B004519D8 /* GLUT.framework */; };
-		75D092A31AB51842004519D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D092A21AB51842004519D8 /* Cocoa.framework */; };
 		75D092A51AB5184B004519D8 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D092A41AB5184B004519D8 /* AudioUnit.framework */; };
 		75D092BA1AB51A8C004519D8 /* AkDefaultIOHookBlocking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092A71AB51A8B004519D8 /* AkDefaultIOHookBlocking.cpp */; };
 		75D092BB1AB51A8C004519D8 /* AkDefaultIOHookBlocking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D092A71AB51A8B004519D8 /* AkDefaultIOHookBlocking.cpp */; };
@@ -490,8 +488,6 @@
 		75D0926C1AB391F2004519D8 /* CCWWiseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCWWiseTest.m; path = "cocos2d-ui-tests/tests/CCWWiseTest.m"; sourceTree = SOURCE_ROOT; };
 		75D0929C1AB39A2F004519D8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
 		75D0929E1AB510F4004519D8 /* libCommunicationCentral.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCommunicationCentral.a; path = external/WWise/lib/libCommunicationCentral.a; sourceTree = "<group>"; };
-		75D092A01AB5183B004519D8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = DEVELOPER_DIR; };
-		75D092A21AB51842004519D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		75D092A41AB5184B004519D8 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AudioUnit.framework; sourceTree = DEVELOPER_DIR; };
 		75D092A61AB5186F004519D8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		75D092A71AB51A8B004519D8 /* AkDefaultIOHookBlocking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AkDefaultIOHookBlocking.cpp; sourceTree = "<group>"; };
@@ -827,8 +823,6 @@
 				75D0929A1AB39A12004519D8 /* libMcDSPFutzBoxFX.a in Frameworks */,
 				75D0929B1AB39A12004519D8 /* libMcDSPLimiterFX.a in Frameworks */,
 				75D0929F1AB510F4004519D8 /* libCommunicationCentral.a in Frameworks */,
-				75D092A31AB51842004519D8 /* Cocoa.framework in Frameworks */,
-				75D092A11AB5183B004519D8 /* GLUT.framework in Frameworks */,
 				75D092A51AB5184B004519D8 /* AudioUnit.framework in Frameworks */,
 				75D0929D1AB39A2F004519D8 /* CoreAudio.framework in Frameworks */,
 				D3763DDD19E73667006C050D /* AppKit.framework in Frameworks */,
@@ -1060,8 +1054,6 @@
 				75D092D11AB521C9004519D8 /* libSSZipArchiveMac.a */,
 				75D092A61AB5186F004519D8 /* ImageIO.framework */,
 				75D092A41AB5184B004519D8 /* AudioUnit.framework */,
-				75D092A21AB51842004519D8 /* Cocoa.framework */,
-				75D092A01AB5183B004519D8 /* GLUT.framework */,
 				75D0929E1AB510F4004519D8 /* libCommunicationCentral.a */,
 				75D0929C1AB39A2F004519D8 /* CoreAudio.framework */,
 				75DD6DD31AB36C3B00896C89 /* CoreAudioKit.framework */,
@@ -2158,7 +2150,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2194,7 +2185,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
