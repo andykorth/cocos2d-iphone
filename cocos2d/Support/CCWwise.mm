@@ -3,34 +3,17 @@
  *
  * Copyright (c) 2015 Andy Korth or Cocos2D Authors
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
  */
 
 #import <Cocoa/Cocoa.h>
 #import "CCWwise.h"
 
-// C++ shit
+// C++ stuff
 #include <cmath>
 #include <cstdio>
 #include <cassert>
 
-// Apparently wwise needs these
+// I thin wwise needs these
 #include <AvailabilityMacros.h>
 #include <AudioToolbox/AudioToolbox.h>
 
@@ -38,7 +21,7 @@
 #include <AK/SoundEngine/Common/AkTypes.h>
 #include <AK/Tools/Common/AkPlatformFuncs.h>
 
-// No sensible defaults, so I provide my own sensible defaults.
+//Need to provide sensible defaults.
 namespace AK
 {
     void * AllocHook( size_t in_size )
@@ -51,7 +34,7 @@ namespace AK
     }
 }
 
-// Gotta add more shit to config the init.
+// Gotta add more stuff to config the init.
 #include <AK/SoundEngine/Common/AkMemoryMgr.h>		// Memory Manager
 #include <AK/SoundEngine/Common/AkModule.h>			// Default memory and stream managers
 
@@ -60,7 +43,7 @@ namespace AK
 #include <AK/MusicEngine/Common/AkMusicEngine.h>	// Music Engine
 #include <AK/SoundEngine/Common/AkStreamMgrModule.h>	// AkStreamMgrModule
 
-// The only one MY code needs.
+// This is the only thing I need out of cocos2d, for the Wwise game object.
 #import "CCNode.h"
 
 // needed for CAkFilePackageLowLevelIOBlocking definition.
@@ -183,12 +166,12 @@ static CCWwise *shared;
     AK::MemoryMgr::Term();
 }
 
+// My code here:
 - (void) RenderAudio
 {
     AK::SoundEngine::RenderAudio();
 }
 
-// now my shit is here
 - (void) registerGameObject:(CCNode *) n
 {
      AK::SoundEngine::RegisterGameObj( (AkGameObjectID) n, [n.name UTF8String] );
